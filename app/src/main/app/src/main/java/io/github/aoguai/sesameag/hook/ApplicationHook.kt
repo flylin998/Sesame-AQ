@@ -671,7 +671,7 @@ class ApplicationHook {
                     HookUtil.hookDefaultBridgeCallback(classLoader!!)
                 }
 
-                start(userId)
+                // start(userId)
                 checkBatteryPermission()
 
                 Model.bootAllModel(classLoader)
